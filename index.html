@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Haven — Open Garden Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container nav-inner">
+            <a class="brand" href="#">Green Haven</a>
+            <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#reservations">Reservations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-overlay">
+            <div class="container hero-content">
+                <h1>Dining Amongst the Flowers</h1>
+                <p>Relax in our open garden restaurant — seasonal dishes, fresh ingredients, and an atmosphere that breathes.</p>
+                <div class="hero-cta">
+                    <a class="btn" href="#menu">Explore Menu</a>
+                    <a class="btn btn-outline" href="#reservations">Reserve Table</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section container about">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>About Green Haven</h2>
+                    <p>Green Haven is an open garden restaurant celebrating nature, community, and seasonal food.
+                    Our tables sit beneath mature trees and fragrant blooms, creating a warm, relaxed dining experience.</p>
+                    <p>We source locally, cook with care, and craft menus that highlight fresh produce and bold flavors.</p>
+                </div>
+                <div class="about-photo" style="background-image: url('https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1200&q=80');"></div>
+            </div>
+        </section>
+
+        <section id="menu" class="section container menu">
+            <h2 class="section-title">Our Menu</h2>
+            <p class="section-sub">Seasonal plates inspired by the garden — shareable starters, vibrant mains, and delightful desserts.</p>
+            <div class="menu-grid">
+                <article class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1506354666786-959d6d497f1a?auto=format&fit=crop&w=800&q=60" alt="Garden Salad">
+                    <h3>Garden Herb Salad</h3>
+                    <p class="desc">Mixed greens, roasted beets, goat cheese, sunflower seeds, citrus vinaigrette.</p>
+                    <div class="price">$12</div>
+                </article>
+                <article class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1543353071-087092ec3934?auto=format&fit=crop&w=800&q=60" alt="Grilled Veg">
+                    <h3>Charred Vegetable Platter</h3>
+                    <p class="desc">Seasonal vegetables, herb oil, lemon, shaved pecorino.</p>
+                    <div class="price">$18</div>
+                </article>
+                <article class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=60" alt="Pasta">
+                    <h3>Garden Pesto Pasta</h3>
+                    <p class="desc">Fresh basil pesto, cherry tomatoes, parmesan, toasted pine nuts.</p>
+                    <div class="price">$16</div>
+                </article>
+                <article class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=60" alt="Dessert">
+                    <h3>Lavender Honey Panna Cotta</h3>
+                    <p class="desc">Creamy panna cotta with lavender-infused honey and seasonal berries.</p>
+                    <div class="price">$9</div>
+                </article>
+            </div>
+        </section>
+
+        <section id="gallery" class="section container gallery">
+            <h2 class="section-title">Photo Gallery</h2>
+            <div class="gallery-grid" id="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1505575967454-6b8d7a1c1d18?auto=format&fit=crop&w=1000&q=60" alt="Garden 1">
+                <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=1000&q=60" alt="Garden 2">
+                <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1000&q=60" alt="Garden 3">
+                <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=1000&q=60" alt="Garden 4">
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1000&q=60" alt="Garden 5">
+                <img src="https://images.unsplash.com/photo-1505575967454-6b8d7a1c1d18?auto=format&fit=crop&w=1000&q=60" alt="Garden 6">
+            </div>
+        </section>
+
+        <section id="reviews" class="section container reviews">
+            <h2 class="section-title">What Guests Say</h2>
+            <div class="reviews-slider" id="reviews-slider">
+                <div class="review active">
+                    <p class="quote">"A magical evening — the setting, food, and service were flawless. We'll be back every season!"</p>
+                    <div class="author">— Emma R.</div>
+                </div>
+                <div class="review">
+                    <p class="quote">"Fresh, vibrant dishes and a calm atmosphere. Perfect for date night."</p>
+                    <div class="author">— Carlos M.</div>
+                </div>
+                <div class="review">
+                    <p class="quote">"Beautiful garden, friendly staff, and flavors that sing. Highly recommended."</p>
+                    <div class="author">— Priya S.</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reservations" class="section container reservations">
+            <h2 class="section-title">Reserve a Table</h2>
+            <div class="reserve-grid">
+                <form id="reservation-form" class="reserve-form">
+                    <div class="form-row">
+                        <input type="text" name="name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="tel" name="phone" placeholder="Phone" required>
+                        <input type="date" name="date" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="time" name="time" required>
+                        <select name="people" required>
+                            <option value="">Party size</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5+</option>
+                        </select>
+                    </div>
+                    <textarea name="notes" placeholder="Special requests (optional)"></textarea>
+                    <button class="btn" type="submit">Request Reservation</button>
+                    <div id="reserve-result" class="form-result" aria-live="polite"></div>
+                </form>
+                <div class="reserve-info">
+                    <h3>Visit Us</h3>
+                    <p>123 Garden Lane<br>Open daily 11:00 — 22:00</p>
+                    <p><strong>Phone:</strong> (555) 123-4567</p>
+                    <p><strong>Email:</strong> hello@greenhaven.example</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section container contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-grid">
+                <div>
+                    <p>Have questions? Reach out and we'll get back to you soon.</p>
+                    <ul class="contact-list">
+                        <li><strong>Address:</strong> 123 Garden Lane, Townsville</li>
+                        <li><strong>Phone:</strong> (555) 123-4567</li>
+                        <li><strong>Email:</strong> hello@greenhaven.example</li>
+                    </ul>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your name" required>
+                    <input type="email" placeholder="Your email" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <button class="btn btn-outline" type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div>© <span id="year"></span> Green Haven</div>
+            <div class="socials">Follow us: <a href="#">Instagram</a> · <a href="#">Facebook</a></div>
+        </div>
+    </footer>
+
+    <div id="lightbox" class="lightbox" aria-hidden="true"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
